@@ -75,7 +75,7 @@ p{
     margin-left: 40px;
 }
 
-.mainheader {
+.studioheader {
     height: 72px;
     width: 1440px;
     border-bottom: 1px solid var(--cornflower);   
@@ -126,7 +126,7 @@ p{
 }
 .studiohero h1 {
     margin: 0px;
-    display: flex;
+    display: inline-block;
     width: 496px;
     height: 120px;
     color: var(--colorwhite);
@@ -137,12 +137,12 @@ p{
     gap: 10px;
     letter-spacing: 1.12px;
     /* padding-top: 188px; */
-    padding: 188px 472px 48px 472px;
+    margin: 188px 472px 48px 472px;
   
 }
    
 .studiohero .herobutton{
-    display: inline-flex;
+    display: inline-block;
     align-items: flex-start;
     font-family: inherit;
     width: 169px;
