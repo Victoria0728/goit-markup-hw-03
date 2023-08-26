@@ -239,6 +239,7 @@ background: var(--bgnavyblue);
     flex-direction: column;
     align-items: flex-start;
     list-style-type: none;
+    margin-right: 5px;
    
 }
 .studioimage li:hover{
@@ -274,15 +275,12 @@ background: var(--bgnavyblue);
     display: inline-flex;
     padding-bottom: 0px;
     flex-direction: column;
+    margin-right: 5px;
     justify-content: center;
     align-items: center; 
     border-radius: 0px 0px 4px 4px;
     background: var(--primarybg);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    
-}
-.studioteam > ul{
-  
 }
 
 .studioteam h3 {
@@ -422,11 +420,13 @@ background: var(--bgnavyblue);
 .portsection ul li {
     display: inline-flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     border: 1px solid var(--cornflower);
     background: var(--colorwhite);
     margin-bottom: 32px;
     list-style-type: none;
+    margin-right: 5px;
+    
 }
 
 .portsection li h3{
